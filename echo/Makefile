@@ -1,7 +1,7 @@
 CXX = g++
 CXXFLAGS = -std=c++17 -Wall
-TARGET = echo_client
-SRC = echo_client.cpp
+TARGET = echo
+SRC = echo.cpp
 
 $(TARGET): $(SRC)
 	$(CXX) $(CXXFLAGS) -o $(TARGET) $(SRC)

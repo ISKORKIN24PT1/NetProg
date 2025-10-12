@@ -1,7 +1,7 @@
 CXX = g++
 CXXFLAGS = -std=c++17 -Wall
-TARGET = daytime_client
-SRC = daytime_client.cpp
+TARGET = daytime
+SRC = daytime.cpp
 
 $(TARGET): $(SRC)
 	$(CXX) $(CXXFLAGS) -o $(TARGET) $(SRC)
