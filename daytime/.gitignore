@@ -1,0 +1,8 @@
+# Игнорируем исполняемые файлы и объектные файлы
+*
+!*.cpp
+!*.hpp
+!Makefile
+!*.txt
+!README.md
+!.gitignore
