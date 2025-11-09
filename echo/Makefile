@@ -1,10 +1,10 @@
 CXX = g++
-CXXFLAGS = -std=c++17 -Wall
+CXXFLAGS = -std=c++17 -Wall -Wextra
 TARGET = echo
-SRC = echo.cpp
+SOURCES = echo.cpp
 
-$(TARGET): $(SRC)
-	$(CXX) $(CXXFLAGS) -o $(TARGET) $(SRC)
+$(TARGET): $(SOURCES)
+	$(CXX) $(CXXFLAGS) -o $(TARGET) $(SOURCES)
 
 clean:
 	rm -f $(TARGET)
